@@ -19,7 +19,7 @@ class Janela(QWidget):
 
         self.setWindowTitle("Win-Streak")
         self.resize(350, 150)
-        self.setWindowIcon(QIcon(recurso("W.png")))
+        self.setWindowIcon(QIcon(recurso("wins.png")))
 
         self.label = QLabel("Win-Streak = 0")
         self.label.setAlignment(Qt.AlignCenter)
